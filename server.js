@@ -100,10 +100,10 @@ app.delete('/api/productos/:id', (req, res) => {
 
 // Servir la aplicación cliente en la ruta principal
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'Lentini - clientes.html'));
+  res.sendFile(path.join(__dirname, 'public', 'clientes.html'));
 });
 app.get('/admin', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'Lentini - administrador.html'));
+  res.sendFile(path.join(__dirname, 'public', 'administrador.html'));
 });
 
 // Iniciar servidor
